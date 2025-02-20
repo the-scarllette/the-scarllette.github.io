@@ -68,6 +68,50 @@ a {
   text-decoration: none;
 }
 
+#teaching {
+    padding: 20px;
+}
+
+.teaching-subsection {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo-container img {
+  display: inline-block;
+    width: 150px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 10px; /* adjust margin as desired */
+    margin-left: 0px; /* adjust margin as desired */
+}
+
+.teaching-links {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.teaching-links h3 {
+    margin-top: 0;
+}
+
+
+.teaching-links p {
+    margin: 0px 0;
+    line-height: 1.5; /* Set line height to match publications section */
+}
+
+.teaching-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.teaching-links a:hover {
+    te
+
+
 a:focus,
 a:hover {
   color: #f09228;
