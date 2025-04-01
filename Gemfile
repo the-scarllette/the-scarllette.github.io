@@ -12,7 +12,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
 end
 
-gem "ruby", '3.1.0'
 gem 'csv'
 gem 'jekyll-coffeescript'
 gem 'execjs'
