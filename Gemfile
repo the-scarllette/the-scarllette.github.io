@@ -10,7 +10,6 @@ group :jekyll_plugins do
   gem 'jekyll-toc', '~> 0.18'
   gem 'jekyll-feed', '~> 0.17'
   gem 'jekyll-sitemap', '~> 1.4'
-  gem "github-pages", "~> 232"
 end
 
 gem 'csv'
