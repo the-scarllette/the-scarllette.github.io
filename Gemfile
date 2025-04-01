@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
 end
 
-gem "ruby", "~> 2.5.0"
+gem "ruby"
 gem 'csv'
 gem 'jekyll-coffeescript'
 gem 'execjs'
