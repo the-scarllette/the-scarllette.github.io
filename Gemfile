@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 # If you're developing the theme as a gem
-gemspec
 
 # Jekyll plugins
 group :jekyll_plugins do
