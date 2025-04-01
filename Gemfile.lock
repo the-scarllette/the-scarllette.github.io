@@ -126,6 +126,10 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     language_server-protocol (3.17.0.4)
+    libv8 (3.16.14.19.1)
+    libv8 (3.16.14.19.1-arm-linux)
+    libv8 (3.16.14.19.1-universal-darwin)
+    libv8 (3.16.14.19.1-x86_64-darwin)
     libv8 (3.16.14.19.1-x86_64-linux)
     lint_roller (1.1.0)
     liquid (4.0.4)
@@ -252,6 +256,7 @@ DEPENDENCIES
   csv
   execjs
   html-proofer (~> 3.0)
+  jekyll
   jekyll-coffeescript
   jekyll-feed (~> 0.17)
   jekyll-katex (~> 1.0)
