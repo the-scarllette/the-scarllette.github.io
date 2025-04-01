@@ -6,7 +6,7 @@ theme: jekyll-theme-manpage
 skin: purple # Available skins: purple, tomorrow, github, dracula, nord, monokai
 quiet: true
 
-destination: ./build
+destination: /build
 domain: the-scarllette.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://the-scarllette.github.io    # the base hostname and protocol for your site, e.g. http://example.com
 
