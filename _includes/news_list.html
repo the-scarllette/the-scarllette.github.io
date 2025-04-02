@@ -1,0 +1,11 @@
+<div>
+{% for item in site.data.news %}
+    <p class="news-header">[{{item.month}}, {{item.year}}]
+    {% if item.link%}
+       - <a href="{{item.link}}">LINK</a>
+    {% endif %}
+    </p>
+    <p class="news">{{item.details}}</p>
+{% endfor %}
+</div>
+

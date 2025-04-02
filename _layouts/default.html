@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <header class="page-header">
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+    <button id="scrollToTop" title="Go to top">↑</button>
+    <footer class="site-footer">
+
+      {% if page.layout == 'post' %}
+      <a href="/writing" class="back-link">← back to Blog</a>
+      {% else %}
+      <span class="site-footer-credits" style="text-align: center;">{{ site.author }}, 2025</span>
+      {% endif %}
+    </footer>
+  </main>
+  <script>
+    console.log({
+      'data-theme': document.documentElement.getAttribute('data-theme'),
+      'color-scheme': document.documentElement.getAttribute('color-scheme'),
+      'root-bg': getComputedStyle(document.documentElement).getPropertyValue('--bg-color'),
+      'root-color': getComputedStyle(document.documentElement).getPropertyValue('--text-color')
+    });
+  </script>
+  {% if site.features.back_to_top %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the button
+      const scrollButton = document.getElementById("scrollToTop");
+
+      if (scrollButton) {
+        // Show button when user scrolls down 20px from top
+        window.onscroll = function () {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollButton.style.display = "block";
+          } else {
+            scrollButton.style.display = "none";
+          }
+        };
+
+        // Scroll to top when button is clicked
+        scrollButton.onclick = function () {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        };
+      }
+    });
+  </script>
+  {% endif %}
+</body>
+
+</html>

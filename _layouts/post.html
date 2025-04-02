@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="post-meta">
+  <span class="post-date">{{ page.date | date_to_string: "ordinal", "US" }}</span>
+  {% if page.tags %}
+  <div class="post-tags">
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if site.features.read_time %}
+  {% include read_time.html %}
+  {% endif %}
+
+  {% if page.toc %}
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    {% toc %}
+  </div>
+  {% endif %}
+
+</div>
+
+{{ content }}
+
+{% include comments.html %}

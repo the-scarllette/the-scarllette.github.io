@@ -1,0 +1,18 @@
+supervision:
+ - name: B.Sc. Dissertation Project
+   link: https://www.bath.ac.uk/catalogues/2024-2025/cm/CM30082.html
+   start: 2024
+   end: present
+tutoring:
+ - name: Reinforcement Learning
+   link: https://www.bath.ac.uk/catalogues/2022-2023/cm/CM50270.html
+   start: 2022
+   end: present
+ - name: Artificial Intelligence
+   link: https://www.bath.ac.uk/catalogues/2023-2024/cm/USCM-AFB06.html
+   start: 2022
+   end: 2024
+ - name: Bayesian Machine Learning
+   link: https://www.bath.ac.uk/catalogues/2023-2024/cm/CM50268.html
+   start: 2023
+   end: 2024

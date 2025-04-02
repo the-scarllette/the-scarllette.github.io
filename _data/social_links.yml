@@ -1,0 +1,15 @@
+cv:
+  text: CV
+  url: /assets/scarllette_ellis_cv.pdf
+social:
+  - name: BlueSky
+    text: "@thescarllette"
+    url:  "https://bsky.app/profile/thescarllette.bsky.social"
+  - name: linkedin
+    text: "@Scarllette Ellis"
+    url: "https://www.linkedin.com/in/scarllette-ellis-7ab83b223/"
+  - name: github
+    text: "@the-scarllette"
+    url: "https://github.com/the-scarllette"
+  # add any additional social links here following the syntax from above.
+email: "re412@bath.ac.uk"

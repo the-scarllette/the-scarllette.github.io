@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-01T12:42:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Scarllette Ellis</title><subtitle>PhD researcher in hierarchical reinforcement learning.</subtitle><author><name>Scarllette Ellis</name></author><entry><title type="html">What I Read in March</title><link href="http://localhost:4000/2025/03/29/what-i-read-in-march.html" rel="alternate" type="text/html" title="What I Read in March" /><published>2025-03-29T00:00:00+00:00</published><updated>2025-03-29T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/29/what-i-read-in-march</id><content type="html" xml:base="http://localhost:4000/2025/03/29/what-i-read-in-march.html"><![CDATA[<p>Aliens, board games in python, and sci-fi roleplaying. These are the games, papers, and books I read in March 2025.
+<!--more--></p>
+
+<h2 id="book-birdking-volume-3">Book: Birdking Volume 3</h2>
+
+<h1 id="video-game-citizen-sleeper">Video Game: Citizen Sleeper</h1>
+
+<h1 id="paper-pytag">Paper: PyTag</h1>]]></content><author><name>Scarllette Ellis</name></author><category term="ttrpgs" /><category term="reinforcement learning" /><summary type="html"><![CDATA[Games, papers, and books I read in March 2025.]]></summary></entry><entry><title type="html">LaTeX Mathematical Expressions</title><link href="http://localhost:4000/2025/01/03/LaTeX-Examples.html" rel="alternate" type="text/html" title="LaTeX Mathematical Expressions" /><published>2025-01-03T00:00:00+00:00</published><updated>2025-01-03T00:00:00+00:00</updated><id>http://localhost:4000/2025/01/03/LaTeX-Examples</id><content type="html" xml:base="http://localhost:4000/2025/01/03/LaTeX-Examples.html"><![CDATA[<h1 id="using-latex-in-your-posts">Using LaTeX in Your Posts</h1>
+
+<p>This post demonstrates how to use LaTeX for mathematical expressions and equations.</p>
+
+<!--more-->
+
+<h2 id="inline-math">Inline Math</h2>
+
+<p>You can write inline equations like this: $E = mc^2$ or $x^2 + y^2 = r^2$</p>
+
+<h2 id="block-equations">Block Equations</h2>
+
+<p>For larger equations, use double dollar signs:</p>
+
+\[\frac{d}{dx}\left( \int_{0}^{x} f(u)\,du\right)=f(x)\]
+
+<h2 id="complex-mathematical-expressions">Complex Mathematical Expressions</h2>
+
+<p>The quadratic formula:
+\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)</p>
+
+<p>Matrix representation:
+\(\begin{bmatrix}
+a &amp; b &amp; c \\
+d &amp; e &amp; f \\
+g &amp; h &amp; i
+\end{bmatrix}\)</p>
+
+<p>Sum notation:
+\(\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}\)</p>
+
+<h2 id="greek-letters-and-symbols">Greek Letters and Symbols</h2>
+
+<ul>
+  <li>Alpha: \(\alpha\)</li>
+  <li>Beta: \(\beta\)</li>
+  <li>Gamma: \(\gamma\)</li>
+  <li>Delta: \(\Delta\)</li>
+  <li>Infinity: \(\infty\)</li>
+  <li>Therefore: \(\therefore\)</li>
+  <li>Exists: \(\exists\)</li>
+  <li>For all: \(\forall\)</li>
+</ul>
+
+<h2 id="chemical-equations">Chemical Equations</h2>
+
+\[\ce{CO2 + H2O -&gt; H2CO3}\]
+
+<h2 id="statistical-formulas">Statistical Formulas</h2>
+
+<p>Standard deviation:
+\(\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}\)</p>
+
+<h2 id="probability-and-set-theory">Probability and Set Theory</h2>
+
+\[P(A \cap B) = P(A) \cdot P(B|A)\]
+
+\[A \subseteq B \iff \forall x(x \in A \implies x \in B)\]]]></content><author><name>Scarllette Ellis</name></author><category term="latex" /><category term="math" /><category term="equations" /><summary type="html"><![CDATA[Examples of LaTeX math formatting in posts]]></summary></entry><entry><title type="html">Markdown Syntax Guide</title><link href="http://localhost:4000/2025/01/02/Markdown-Guide.html" rel="alternate" type="text/html" title="Markdown Syntax Guide" /><published>2025-01-02T00:00:00+00:00</published><updated>2025-01-02T00:00:00+00:00</updated><id>http://localhost:4000/2025/01/02/Markdown-Guide</id><content type="html" xml:base="http://localhost:4000/2025/01/02/Markdown-Guide.html"><![CDATA[<h1 id="markdown-syntax-guide">Markdown Syntax Guide</h1>
+
+<p>Here’s a comprehensive overview of markdown formatting options available in your posts.</p>
+
+<!--more-->
+
+<h2 id="text-formatting">Text Formatting</h2>
+
+<p><strong>Bold text</strong> is created with double asterisks
+<em>Italic text</em> uses single asterisks
+<del>Strikethrough</del> uses double tildes</p>
+
+<h2 id="lists">Lists</h2>
+
+<p>Unordered list:</p>
+<ul>
+  <li>Item 1</li>
+  <li>Item 2
+    <ul>
+      <li>Nested item</li>
+      <li>Another nested item</li>
+    </ul>
+  </li>
+  <li>Item 3</li>
+</ul>
+
+<p>Ordered list:</p>
+<ol>
+  <li>First item</li>
+  <li>Second item
+    <ol>
+      <li>Nested numbered item</li>
+      <li>Another nested item</li>
+    </ol>
+  </li>
+  <li>Third item</li>
+</ol>
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<p>Inline code: <code class="language-plaintext highlighter-rouge">const greeting = "Hello World"</code></p>
+
+<p>Code block with syntax highlighting:</p>
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">calculateSum</span><span class="p">({</span> <span class="nx">a</span><span class="p">,</span> <span class="nx">b</span> <span class="p">}:</span> <span class="p">{</span> <span class="nl">a</span><span class="p">:</span> <span class="kr">number</span><span class="p">,</span> <span class="nx">b</span><span class="p">:</span> <span class="kr">number</span> <span class="p">}):</span> <span class="kr">number</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<blockquote>
+  <p>This is a blockquote
+It can span multiple lines</p>
+  <blockquote>
+    <p>And can be nested</p>
+  </blockquote>
+</blockquote>
+
+<h2 id="tables">Tables</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+      <td>Cell 3</td>
+    </tr>
+    <tr>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+      <td>Cell 6</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="links-and-images">Links and Images</h2>
+
+<p><a href="https://example.com">Link to external site</a></p>
+
+<p><img src="https://via.placeholder.com/150" alt="Alt text for image" /></p>
+
+<h2 id="task-lists">Task Lists</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Completed task</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Incomplete task</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Another completed task</li>
+</ul>
+
+<h2 id="extended-syntax">Extended Syntax</h2>
+
+<h3 id="definition-lists">Definition Lists</h3>
+
+<p>Some Markdown processors allow you to create <em>definition lists</em> of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+</code></pre></div></div>
+
+<p>The HTML looks like this:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dl&gt;</span>
+  <span class="nt">&lt;dt&gt;</span>First Term<span class="nt">&lt;/dt&gt;</span>
+  <span class="nt">&lt;dd&gt;</span>This is the definition of the first term.<span class="nt">&lt;/dd&gt;</span>
+  <span class="nt">&lt;dt&gt;</span>Second Term<span class="nt">&lt;/dt&gt;</span>
+  <span class="nt">&lt;dd&gt;</span>This is one definition of the second term. <span class="nt">&lt;/dd&gt;</span>
+  <span class="nt">&lt;dd&gt;</span>This is another definition of the second term.<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<dl>
+  <dt>First Term</dt>
+  <dd>This is the definition of the first term.</dd>
+  <dt>Second Term</dt>
+  <dd>This is one definition of the second term.</dd>
+  <dd>This is another definition of the second term.</dd>
+</dl>
+
+<h3 id="emoji">Emoji</h3>
+
+<p>There are two ways to add emoji to Markdown files: copy and paste the emoji into your Markdown-formatted text, or type <em>emoji shortcodes</em>.</p>
+
+<h4 id="copying-and-pasting-emoji">Copying and Pasting Emoji</h4>
+
+<p>In most cases, you can simply copy an emoji from a source like <a href="https://emojipedia.org/">Emojipedia</a> and paste it into your document. Many Markdown applications will automatically display the emoji in the Markdown-formatted text. The HTML and PDF files you export from your Markdown application should display the emoji.</p>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you're using a static site generator, make sure you <a href="https://www.w3.org/International/tutorials/tutorial-char-enc/">encode HTML pages as UTF-8</a>.
+</div>
+
+<h4 id="using-emoji-shortcodes">Using Emoji Shortcodes</h4>
+
+<p>Some Markdown applications allow you to insert emoji by typing emoji shortcodes. These begin and end with a colon and include the name of an emoji.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>Gone camping! ⛺ Be back soon.</p>
+
+<p>That is so funny! 😂</p>
+
+<div class="alert alert-info">
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> You can use this <a href="https://gist.github.com/rxaviers/7360908">list of emoji shortcodes</a>, but keep in mind that emoji shortcodes vary from application to application. Refer to your Markdown application's documentation for more information.
+</div>
+
+<h3 id="footnotes">Footnotes</h3>
+
+<p>Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.</p>
+
+<p>To create a footnote reference, add a caret and an identifier inside brackets (<code class="language-plaintext highlighter-rouge">[^1]</code>). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.</p>
+
+<p>Add the footnote using another caret and number inside brackets with a colon and text (<code class="language-plaintext highlighter-rouge">[^1]: My footnote.</code>). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>Here’s a simple footnote,<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> and here’s a longer one.<sup id="fnref:bignote"><a href="#fn:bignote" class="footnote" rel="footnote" role="doc-noteref">2</a></sup></p>
+
+<h3 id="heading-ids">Heading IDs</h3>
+
+<p>Many Markdown processors support custom IDs for <a href="/basic-syntax/#headings">headings</a> — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### My Great Heading {#custom-id}
+</code></pre></div></div>
+
+<p>The HTML looks like this:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h3</span> <span class="na">id=</span><span class="s">"custom-id"</span><span class="nt">&gt;</span>My Great Heading<span class="nt">&lt;/h3&gt;</span>
+</code></pre></div></div>
+
+<h3 id="linking-to-heading-ids">Linking to Heading IDs</h3>
+
+<p>You can link to headings with custom IDs in the file by creating a <a href="/basic-syntax/#links">standard link</a> with a number sign (<code class="language-plaintext highlighter-rouge">#</code>) followed by the custom heading ID. These are commonly referred to as <em>anchor links</em>.</p>
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">[Heading IDs](#heading-ids)</code></td>
+      <td><code class="highlighter-rouge"> &lt;a href="#heading-ids"&gt;Heading IDs&lt;/a&gt;</code></td>
+      <td><a href="#heading-ids">Heading IDs</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, <code class="language-plaintext highlighter-rouge">[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)</code>).</p>
+
+<h3 id="highlights">Highlights</h3>
+
+<p>This isn’t common, but some Markdown processors allow you to highlight text. The result looks <mark>like this</mark>. To highlight words, use two equal signs (<code class="language-plaintext highlighter-rouge">==</code>) before and after the words.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I need to highlight these ==very important words==.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>I need to highlight these <mark>very important words</mark>.</p>
+
+<p>Alternatively, if your Markdown application supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">mark</code> HTML tag.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I need to highlight these <span class="nt">&lt;mark&gt;</span>very important words<span class="nt">&lt;/mark&gt;</span>.
+</code></pre></div></div>
+
+<h3 id="strikethrough">Strikethrough</h3>
+
+<p>You can strikethrough words by putting a horizontal line through the center of them. The result looks <del>like this</del>. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (<code class="language-plaintext highlighter-rouge">~~</code>) before and after the words.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~~The world is flat.~~ We now know that the world is round.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><del>The world is flat.</del> We now know that the world is round.</p>
+
+<h3 id="subscript">Subscript</h3>
+
+<p>This isn’t common, but some Markdown processors allow you to use <em>subscript</em> to position one or more characters slightly below the normal line of type. To create a subscript, use one tilde symbol (<code class="language-plaintext highlighter-rouge">~</code>) before and after the characters.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>H~2~O
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>H<sub>2</sub>O</p>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Be sure to test this in your Markdown application before using it. Some Markdown applications use one tilde symbol before and after words not for subscript, but for <a href="/extended-syntax/#strikethrough">strikethrough</a>. 
+</div>
+
+<p>Alternatively, if your Markdown application supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">sub</code> HTML tag.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>H<span class="nt">&lt;sub&gt;</span>2<span class="nt">&lt;/sub&gt;</span>O
+</code></pre></div></div>
+
+<h3 id="superscript">Superscript</h3>
+
+<p>This isn’t common, but some Markdown processors allow you to use <em>superscript</em> to position one or more characters slightly above the normal line of type. To create a superscript, use one caret symbol (<code class="language-plaintext highlighter-rouge">^</code>) before and after the characters.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>X^2^
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>X<sup>2</sup></p>
+
+<p>Alternatively, if your Markdown application supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">sup</code> HTML tag.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>X<span class="nt">&lt;sup&gt;</span>2<span class="nt">&lt;/sup&gt;</span>
+</code></pre></div></div>
+
+<h3 id="tables-1">Tables</h3>
+
+<p>To add a table, use three or more hyphens (<code class="language-plaintext highlighter-rouge">---</code>) to create each column’s header, and use pipes (<code class="language-plaintext highlighter-rouge">|</code>) to separate each column. For compatibility, you should also add a pipe on either end of the row.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Cell widths can vary, as shown below. The rendered output will look the same.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+</code></pre></div></div>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a> or <a href="https://anywaydata.com">AnyWayData Markdown Export</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
+</div>
+
+<h4 id="alignment">Alignment</h4>
+
+<p>You can align text in the columns to the left, right, or center by adding a colon (<code class="language-plaintext highlighter-rouge">:</code>) to the left, right, or on both side of the hyphens within the header row.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Syntax</th>
+      <th style="text-align: center">Description</th>
+      <th style="text-align: right">Test Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Header</td>
+      <td style="text-align: center">Title</td>
+      <td style="text-align: right">Here’s this</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Paragraph</td>
+      <td style="text-align: center">Text</td>
+      <td style="text-align: right">And more</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="formatting-text-in-tables">Formatting Text in Tables</h4>
+
+<p>You can format the text within tables. For example, you can add <a href="/basic-syntax/#links">links</a>, <a href="/basic-syntax/#code-1">code</a> (words or phrases in backticks (<code class="language-plaintext highlighter-rouge">`</code>) only, not <a href="/basic-syntax/#code-blocks">code blocks</a>), and <a href="/basic-syntax/#emphasis">emphasis</a>.</p>
+
+<p>You can’t use headings, blockquotes, lists, horizontal rules, images, or most HTML tags.</p>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> You can use HTML to create <a href="/hacks/#line-breaks-within-table-cells">line breaks</a> and add <a href="/hacks/#lists-within-table-cells">lists</a> within table cells.
+</div>
+
+<h4 id="escaping-pipe-characters-in-tables">Escaping Pipe Characters in Tables</h4>
+
+<p>You can display a pipe (<code class="language-plaintext highlighter-rouge">|</code>) character in a table by using its HTML character code (<code class="language-plaintext highlighter-rouge">&amp;#124;</code>).</p>
+
+<p>Credits: <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This is the first footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:bignote">
+      <p>Here’s one with multiple paragraphs and code.</p>
+
+      <p>Indent paragraphs to include them in the footnote.</p>
+
+      <p><code class="language-plaintext highlighter-rouge">{ my code }</code></p>
+
+      <p>Add as many paragraphs as you like. <a href="#fnref:bignote" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Scarllette Ellis</name></author><category term="markdown" /><category term="tutorial" /><category term="formatting" /><summary type="html"><![CDATA[A comprehensive guide to using markdown in your posts]]></summary></entry><entry><title type="html">Creating your first Post!</title><link href="http://localhost:4000/2025/01/01/New-Post.html" rel="alternate" type="text/html" title="Creating your first Post!" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T00:00:00+00:00</updated><id>http://localhost:4000/2025/01/01/New-Post</id><content type="html" xml:base="http://localhost:4000/2025/01/01/New-Post.html"><![CDATA[<h1 id="writing-posts">Writing Posts</h1>
+
+<p>This theme includes a blog-like writing section with search and tag filtering.
+<!--more--></p>
+<h2 id="creating-posts">Creating Posts</h2>
+
+<ol>
+  <li>Create a new file in <code class="language-plaintext highlighter-rouge">_posts/</code> following the naming convention: <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-post-title.md</code></li>
+  <li>Add front matter:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: page
+title: Your Post Title
+description: Brief description
+tags: [tag1, tag2, tag3]
+---
+</code></pre></div>    </div>
+  </li>
+  <li>Write your content using markdown</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">&lt;!--more--&gt;</code> to set excerpt break point</li>
+</ol>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Full-text search</li>
+  <li>Tag filtering</li>
+  <li>Responsive design</li>
+  <li>Excerpt support</li>
+  <li>Date-based sorting</li>
+</ul>
+
+<h2 id="front-matter-options">Front Matter Options</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">title</code>: Post title (required)</li>
+  <li><code class="language-plaintext highlighter-rouge">description</code>: Brief description (required)</li>
+  <li><code class="language-plaintext highlighter-rouge">tags</code>: Array of tags (optional)</li>
+  <li><code class="language-plaintext highlighter-rouge">date</code>: Override publish date (optional)</li>
+</ul>]]></content><author><name>Scarllette Ellis</name></author><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tutorial" /><summary type="html"><![CDATA[Brief description of your post]]></summary></entry></feed>
