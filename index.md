@@ -1,15 +1,9 @@
 ---
-layout: navigation-bar
-title: Scarllette Ellis
 ---
 
-{% include about.html %}
+Welcome to My Home Page
 
-{% include social_links.html %}
+{% assign date = '2020-04-13T10:20:00Z' %}
 
-## NEWS
-
-{% include short_news.html %}
-
-[→ Read older news](/pages/news.html)
-
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}

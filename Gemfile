@@ -1,17 +1,9 @@
-source "https://rubygems.org"
+# Gemfile
 
-# If you're developing the theme as a gem
+source 'https://rubygems.org'
 
-# Jekyll plugins
+gem "jekyll", "~> 4.2"
+
 group :jekyll_plugins do
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-katex'
-  gem 'jekyll-toc'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
+  gem "jekyll-timeago", "~> 0.13.1"
 end
-
-gem 'therubyracer'
-gem 'csv'
-gem 'jekyll-coffeescript'
-gem 'execjs'
