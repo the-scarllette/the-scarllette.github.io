@@ -11,7 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
+gem 'therubyracer'
 gem 'csv'
 gem 'jekyll-coffeescript'
 gem 'execjs'
-gem 'therubyracer', '~> 0.12.2'
