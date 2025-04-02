@@ -13,5 +13,4 @@ end
 
 gem 'therubyracer'
 gem 'csv'
-gem 'jekyll-coffeescript'
 gem 'execjs'
