@@ -3,6 +3,8 @@ pages:
   link: /
 - name: Research
   link: /pages/research.html
+- name: Projects
+  link: /pages/projects.html
 - name: Teaching
   link: /pages/teaching.html
 - name: News
