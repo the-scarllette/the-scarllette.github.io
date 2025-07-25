@@ -5,6 +5,10 @@ title: Projects
 
 A collection of my most used projects found on my GitHub. My entire repositories can be found [here](https://github.com/the-scarllette).
 
+## RL-Environments
+
+A collection of reinforcement learning environments. A section of which are based on tabletop games. [Repository](https://github.com/the-scarllette/rl-environments/tree/master).
+
 ## OOAgents
 
 A collection of reinforcement learning agents created in an object-orientated structure. [Repository](https://github.com/the-scarllette/ooagents).
