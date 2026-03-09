@@ -1,8 +1,7 @@
 supervision:
- - name: B.Sc. Dissertation Project
-   link: https://www.bath.ac.uk/catalogues/2024-2025/cm/CM30082.html
-   start: 2024
-   end: present
+ - student: Eren Karabey
+   year: 2025
+   title: Curriculum Learning in Chess Endgames using Endgame Tablebases
 tutoring:
  - name: Reinforcement Learning
    link: https://www.bath.ac.uk/catalogues/2022-2023/cm/CM50270.html

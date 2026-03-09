@@ -1,6 +1,6 @@
 ---
 layout: teaching
-title: Teaching
+title: Teaching and Supervision
 ---
 
 {% include teaching-intro.html %}
