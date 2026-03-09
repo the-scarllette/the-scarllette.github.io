@@ -1,6 +1,6 @@
 <ul class="news-list">
   {% for item in site.data.teaching_links.supervision %}
-    <li>({{item.year | capitalize}})<strong>{{item.student}}</strong>: {{item.title}} </li>
-  {% endfor %}
-  <!-- <li><strong>/ / :</strong> </li> -->
+    <p class="news-header">[{{item.year}}] - <strong>{{item.student}}</strong></p>
+    <p class="news">{{item.title}}</p>
+{% endfor %}
 </ul>
