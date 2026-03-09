@@ -1,4 +1,28 @@
 supervision:
+ - student: Felix Szpakowski
+   year: 2026
+   title: Using Reinforcement Learning to Negotiate Trading in Catan
+ - student: George Wilkinson
+   year: 2026
+   title: Finding the Ideal Opponents for Training Reinforcement Learning Agents in Tabletop Games
+ - student: Talaal Sharif
+   year: 2026
+   title: Multi-Agent Reinforcement Learning for Rang
+ - student: Christopher Fowler
+   year: 2026
+   title: Integrating Methods from Rainbow-DQN to Hybrid Action Selection Models for the Board Game Lacuna
+ - student: Alisha Wouda Deshmukh
+   year: 2026
+   title: Variable-Skill Reinforcement Learning for 6-Nimmt!
+ - student: Louis Sentinella
+   year: 2025
+   title: Reinforcement learning methods applied to Carcassonne
+ - student: Sam Ndenecho
+   year: 2025
+   title: Applying Reinforcement Learning Agents to Dungeons and Dragons Combat
+ - student: Pedro Cardoso
+   year: 2025
+   title: Applying Reinforcement Learning to Catan
  - student: Eren Karabey
    year: 2025
    title: Curriculum Learning in Chess Endgames using Endgame Tablebases
